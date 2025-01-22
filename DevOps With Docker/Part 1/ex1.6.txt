@@ -1,0 +1,7 @@
+Secret message: "This is the secret message"
+
+starting the container - docker run -it devopsdockeruh/pull_exercise
+going to shell - docker exec -it NAME sh
+finding the information from files - ls -> README.md
+opening the README-file - cat README.md
+Password: basics

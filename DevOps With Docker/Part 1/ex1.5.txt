@@ -1,0 +1,6 @@
+Ubuntu size: 83MB
+Alpine size: 15.7MB
+
+Started the Alpine Linux container
+Went to to the container - docker exec -it great_galois sh
+found the .log file - tail ./text.log -> the secret message can be found
