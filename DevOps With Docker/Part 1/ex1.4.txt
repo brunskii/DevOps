@@ -1,0 +1,6 @@
+starting the image - docker run -it ubuntu sh -c 'while true; do echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website; done'
+looking up the container name - docker container ls -> serene_rhodes
+going to container bash - docker exec -it serene_rhodes bash
+installing curl into container - apt-get install curl
+attaching back to container - docker attach -it serene_rhodes
+inputting Helsinki.fi to the container, it Works now.

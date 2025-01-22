@@ -1,0 +1,7 @@
+Commands:
+starting the docker - docker run -it devopsdockeruh/simple-web-Service:ubuntu
+looking up the name of the container - docker container ls -> reverent_dijkstra
+hopping into the container bash - docker exec -it reverent_dijkstra bash
+tailing the text logs - tail -f ./text.log
+
+Secret message: You can find the source code here: https://github.com/docker-hy
